@@ -1,0 +1,7 @@
+eureka:
+  # instance:
+  #   preferIpAddress: true
+  client:
+    initialInstanceInfoReplicationIntervalSeconds: 1
+    serviceUrl:
+      defaultZone: http://eureka-service.192.168.33.10.xip.io/eureka/
