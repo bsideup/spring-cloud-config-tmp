@@ -1,4 +1,7 @@
 eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}-${random.long}
   # instance:
   #   preferIpAddress: true
   client:
